@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Nav from './Components/Nav/nav'
-import ImageCarousel from '../components/ImageCarousel';
+import ImageCarousel from './Components/Carousel/ImageCarousel';
 
 export default function Home() {
   return (

@@ -1,6 +1,7 @@
-import Image from 'next/image'
-import styles from './ImageCarousel.module.css';
-import React, { useState } from 'react';
+"use client";
+import Image from 'next/image';
+import styles from './Carousel.module.css';
+import { useState } from 'react';
 const images = [
   'ex1.png',
   'ex2.png',
@@ -20,7 +21,7 @@ const ImageCarousel = () => {
   return (
     <div className="carousel">
       <button onClick={goToPreviousImage}>Previous</button>
-      <img src={images[currentImage]} alt="Carousel" />
+      <Image src={images[currentImage]} alt="Carousel" width={100} height={100} />
       <button onClick={goToNextImage}>Next</button>
     </div>
   );
