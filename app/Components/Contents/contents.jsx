@@ -1,64 +1,19 @@
 import style from './contents.module.css'
+import Image from 'next/image'
 
 
-export default function Contents(){
+export default function Contents(props) {
     return (
         <div className={style.container}>
             <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-
+                <Image className={style.contentImage} src={props.image} alt="Picture of Content" width={100} height={100} />
+                <div className={style.contentInfoContainer}>
+                    <span className={style.contentName}> {props.title} </span>
+                    <span className={style.avaliacao}> {props.avaliacao} </span>
+                    
+                </div>
+                <a href="" className={style.contentLink}>Saiba mais</a>
             </div>
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            <div className={style.contentContainer}>
-                <img src="" alt="" />
-                <span className={style.contentName}></span>
-                <span className={style.avaliacao}></span>
-                
-            </div>
-            
-            
         </div>
     )
 }

@@ -1,0 +1,58 @@
+.container {
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+
+}
+
+.contentContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #435264;
+    gap: 24px;
+    height: 260px;
+    width: 360px;
+    border-radius: 10px;
+    margin: 14px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+
+}
+
+.contentImage{
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.contentName{
+    color: #fff;
+    font-family: Verdana;
+
+}
+
+.avaliacao{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contentLink{
+    background-color: #4A90E2;
+    width: 70px;
+    color: #000;
+    align-self: end;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    
+}
+
+
+.contentInfoContainer{
+    display: flex;
+    flex-direction: column;
+}
