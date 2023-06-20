@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    background-color: #1A2A3A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+
+}
+
+.titulo{
+    background-color: #1A2A3A;
+    padding:  0 0 44px 180px;
+}
