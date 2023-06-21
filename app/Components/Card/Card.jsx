@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './card.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -24,7 +25,7 @@ const Card = (props) => {
       {isHovered && (
         <>
           <button className={styles.button}>
-            <span>{props.text}</span>
+            <span><Link href={props.link}>{props.text}</Link></span>
           </button>
         </>
       )}
