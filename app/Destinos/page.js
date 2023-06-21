@@ -1,11 +1,9 @@
 import Contents from "../Components/Contents/contents";
-import Nav from "../Components/Nav/nav";
 import style from "./page.module.css";
 
 export default function Destinos(props) {
     return (
         <>
-            <Nav></Nav>
             <h1 className={style.titulo}>Destinos</h1>
             <div className={style.container}>
                 <Contents
