@@ -6,7 +6,7 @@ export default function Contents(props) {
     return (
         <>
             <div className={style.contentContainer}>
-                <Image className={style.contentImage} src={props.image} alt="Picture of Content" width={100} height={100} />
+                <Image className={style.contentImage} src={props.image} alt="Picture of Content" width={250} height={250} />
                 <div className={style.contentInfoContainer}>
                     <span className={style.contentName}> {props.title} </span>
                     <span className={style.avaliacao}> {props.avaliacao} </span>

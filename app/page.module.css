@@ -9,7 +9,7 @@
 .cards {
   display: flex;
   flex-wrap: nowrap;
-  padding: 24px 80px 50px;
-  justify-content: space-between;
+  padding: 64px 0px 0px;
+  justify-content: space-around;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
