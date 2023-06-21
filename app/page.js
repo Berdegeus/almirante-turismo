@@ -18,9 +18,9 @@ export default function Home() {
       <Carousel images={images} />
     </div>
     <div className={style.cards}>
-      <Card link={"/Hospedagem"} text={"Hospedagem"} image={'/../public/Hospedagem/Hospedagem.png'}/>
-      <Card link={"/Destinos"} text={"Destinos"} image={'/../public/Destinos/Destinos.jpg'}/>
-      <Card link={"/Restaurantes"} text={"Restaurantes"} image={'/../public/Restaurantes/Restaurante.jpeg'}/> 
+      <Card link={"/Hospedagem"} text={"Hospedagem"} image={'/static/Hospedagem/Hospedagem.png'}/>
+      <Card link={"/Destinos"} text={"Destinos"} image={'/static/Destinos/Destinos.jpg'}/>
+      <Card link={"/Restaurantes"} text={"Restaurantes"} image={'/static/Restaurantes/Restaurante.jpeg'}/> 
     </div>
   </main>
 </>
