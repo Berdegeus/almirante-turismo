@@ -1,12 +1,11 @@
 import style from './page.module.css'
-import Image from 'next/image'
 import Carousel from './Components/Carousel/Carousel';
 import Card from './Components/Card/Card';
 
 const images = [
   '/static/Carrossel/1.png',
-  '/static/Carrossel/2.png',
-  '/static/Carrossel/3.png',
+  '/static/Carrossel/2.jpg',
+  '/static/Carrossel/3.jpg',
   // Add more image URLs here
 ];
 
