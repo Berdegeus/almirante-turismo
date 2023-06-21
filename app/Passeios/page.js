@@ -51,12 +51,12 @@ export default function Passeios() {
                 horario1="10:30h"    
                 descricao1="a Chácara Evíssima possui o necessário para um ótimo passatempo com a família, contando com um café colonial, feito de maneira artesanal, e contando também com uma ampla área verde"
                     
-                image2="/static/Restaurantes/restaurantecapricho.jpg"
+                image2="/static/Restaurantes/restauranteCapricho.jpg"
                 title2="Restaurante no Capricho"
                 horario2="13h"    
                 descricao2="Ambiente agradável preparado com carinho para você que aprecia aquela comida feita NO CAPRICHO!"    
                 
-                image3="/static/Hospedagem/loftDovale.jpg"
+                image3="/static/Hospedagem/loftDoVale.jpg"
                 title3="Loft do Vale"
                 horario3="17h"    
                 descricao3="Rua Pedro Jorge Kotowiski 2745 - Casa 3, Almirante Tamandaré"    
