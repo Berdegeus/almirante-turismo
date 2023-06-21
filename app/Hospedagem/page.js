@@ -7,7 +7,7 @@ export default function Hospedagens() {
             <h1 className={style.titulo}>Hospedagens</h1>
             <div className={style.container}>
                 <Contents
-                    image="/static/Hospedagem/loftDovale.jpg"
+                    image="/static/Hospedagem/loftDoVale.jpg"
                     title="Loft do Vale"
                     avaliacao="4.8"
                     descricao="Rua Pedro Jorge Kotowiski 2745 - Casa 3, Almirante Tamandaré"

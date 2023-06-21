@@ -7,14 +7,14 @@ export default function Restaurantes(props) {
         <h1 className={style.titulo}>Restaurantes</h1>
         <div className={style.container}>
                 <Contents
-                image="/static/Restaurantes/restaurantecapricho.jpg"
+                image="/static/Restaurantes/restauranteCapricho.jpg"
                 title="Restaurante no Capricho"
                 avaliacao="4.7"
                 descricao="Ambiente agradável preparado com carinho para você que aprecia aquela comida feita NO CAPRICHO!"    
                 link="https://restaurantguru.com.br/Restaurante-No-Capricho-Almirante-Tamandare">        
                 </Contents>
                 <Contents
-                image="/static/Restaurantes/LaCasaDuChef.png"
+                image="/static/Restaurantes/laCasaDuChef.png"
                 title="La Casa Du Chef Restaurante"
                 avaliacao="4.0"
                 descricao="Trabalham com culinária Baiana a Internacional e Eventos, especialista em Buffet de Feijoda"    
