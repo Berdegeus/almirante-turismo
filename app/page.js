@@ -4,9 +4,9 @@ import Carousel from './Components/Carousel/Carousel';
 import Card from './Components/Card/Card';
 
 const images = [
-  'https://github.com/Berdegeus/almirante-turismo/blob/master/public/Carrossel/1.png',
-  'https://github.com/Berdegeus/almirante-turismo/blob/master/public/Carrossel/2.png',
-  'https://github.com/Berdegeus/almirante-turismo/blob/master/public/Carrossel/3.png',
+  '/public/Carrossel/1.png',
+  '/public/Carrossel/2.png',
+  '/Carrossel/3.png',
   // Add more image URLs here
 ];
 
