@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import styles from './card.module.css';
+import Image from 'next/image';
 
 const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -19,7 +20,7 @@ const Card = (props) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img src={props.image} alt="Card" className={styles.image} />
+      <Image src={props.image} alt={props.text} className={styles.image} width={250} height={400}  />
       {isHovered && (
         <>
           <button className={styles.button}>

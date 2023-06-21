@@ -4,9 +4,9 @@ import Carousel from './Components/Carousel/Carousel';
 import Card from './Components/Card/Card';
 
 const images = [
-  'https://media.discordapp.net/attachments/1083046128867627068/1120488399825022996/4-Livia-Turismo.png',
-  'https://media.discordapp.net/attachments/1083046128867627068/1120488673574666411/lg-1452_13_383589-168450528464732.jpeg?width=849&height=566',
-  'https://media.discordapp.net/attachments/1083046128867627068/1120488954878247035/mb6wfq2ndcyn2vim2fkntc1_sm.jpg',
+  '/../public/Carrossel/1.png',
+  '/../public/Carrossel/2.jpg',
+  '/../public/Carrossel/3.jpg',
   // Add more image URLs here
 ];
 
@@ -18,9 +18,9 @@ export default function Home() {
       <Carousel images={images} />
     </div>
     <div className={style.cards}>
-      <Card text={"Hospedagem"} image={'https://media.discordapp.net/attachments/1083046128867627068/1120488399825022996/4-Livia-Turismo.png'}/>
-      <Card text={"Destinos"} image={'https://media.discordapp.net/attachments/1083046128867627068/1120488399825022996/4-Livia-Turismo.png'}/>
-      <Card text={"Restaurantes"} image={'https://media.discordapp.net/attachments/1083046128867627068/1120488399825022996/4-Livia-Turismo.png'}/> 
+      <Card text={"Hospedagem"} image={'/../public/Hospedagem/Hospedagem.png'}/>
+      <Card text={"Destinos"} image={'/../public/Destinos/Destinos.jpg'}/>
+      <Card text={"Restaurantes"} image={'/../public/Restaurantes/Restaurante.jpeg'}/> 
     </div>
   </main>
 </>

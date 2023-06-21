@@ -3,6 +3,7 @@
   width: 260px;
   height: 400px;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -38,6 +39,7 @@
 
 .card:hover .image{
   filter: grayscale(100%);
+  scale: 1.1;
 }
 
 .card:hover .button {

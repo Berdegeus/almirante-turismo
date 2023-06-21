@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import styles from './Carousel.module.css';
+import Image from 'next/image';
 
 const Carousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -26,7 +27,7 @@ const Carousel = ({ images }) => {
     <div className={styles.carouselContainer}>
       <div className={styles.carousel}>
         <div className={styles.imageContainer}>
-          <img src={images[currentImageIndex]} alt="Carousel" />
+          <Image src={images[currentImageIndex]} alt="Carousel" width={1760} height={300}/>
         </div>
         <div className={styles.arrowContainer}>
           <button className={styles.arrowButton} onClick={goToPreviousImage}>
