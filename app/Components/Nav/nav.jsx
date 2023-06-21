@@ -10,7 +10,7 @@ export default function Nav() {
               <li><a href="/Destinos">Destinos</a></li>
               <li><a href="/Restaurantes">Restaurantes</a></li>
               <li><a href="/Hospedagem">Hospedagens</a></li>
-              <li><a href="#">Sobre</a></li>
+              <li><a href="/Passeios">Passeios</a></li>
           </ul>
       </div>
     </div>

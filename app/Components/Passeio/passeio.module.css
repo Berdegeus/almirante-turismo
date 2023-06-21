@@ -1,0 +1,55 @@
+.container{
+    width: 90%;
+    background-color: #435264;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 14px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.lugares{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #916400;
+    gap: 24px;
+    border-radius: 10px;
+    margin: 14px;
+    padding: 18px;
+}
+
+.passeioTitle{
+    margin-top: 14px;
+    margin-left: 14px;
+
+}
+
+.contentName{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 18px;
+
+}
+
+.contentImage{
+    border-radius: 10px;
+}
+
+.contentInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.descricao{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 80%;
+}
+
+.seta{
+    width: 24px;
+    height: 24px;
+}
