@@ -1,13 +1,34 @@
-import Image from 'next/image';
-import style from './card.module.css';
+"use client"
+import React, { useState } from 'react';
+import styles from './card.module.css';
 
-export default function Card() {
+const Card = (props) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
-    <>
-    <div className={style.main}>
-      <Image src="/../public/Lorem.png" width={266.67} height={400} />
-      <button className={style.btn}>test</button>
+    <div
+      className={styles.card}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <img src={props.image} alt="Card" className={styles.image} />
+      {isHovered && (
+        <>
+          <button className={styles.button}>
+            <span>{props.text}</span>
+          </button>
+        </>
+      )}
     </div>
-    </>
-  )
-}
+  );
+};
+
+export default Card;
